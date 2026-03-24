@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Support for Gravity Sudoku.">
+  <title>Gravity Sudoku | Support</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #08120f;
+      --panel: rgba(10, 24, 19, 0.84);
+      --line: rgba(94, 234, 212, 0.18);
+      --text: #effcf8;
+      --muted: #b8d8d0;
+      --accent: #5eead4;
+      --accent-2: #f59e0b;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top right, rgba(94, 234, 212, 0.2), transparent 26%),
+        radial-gradient(circle at 10% 5%, rgba(245, 158, 11, 0.15), transparent 22%),
+        linear-gradient(180deg, #08120f 0%, #040806 100%);
+      min-height: 100vh;
+      line-height: 1.65;
+    }
+
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 20px 80px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 32px;
+      backdrop-filter: blur(14px);
+      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
+    }
+
+    h1, h2 {
+      margin-top: 0;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 6vw, 3.4rem);
+      line-height: 1.05;
+      margin-bottom: 12px;
+    }
+
+    h2 {
+      margin-top: 28px;
+      color: var(--accent);
+      font-size: 1.15rem;
+    }
+
+    p, li {
+      color: var(--muted);
+    }
+
+    a {
+      color: var(--accent-2);
+    }
+
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      font-size: 0.8rem;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .nav a {
+      text-decoration: none;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(94, 234, 212, 0.08);
+      border: 1px solid rgba(94, 234, 212, 0.16);
+      color: var(--text);
+    }
+
+    .panel {
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 18px;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.03);
+      margin-top: 16px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="card">
+      <div class="eyebrow">Gravity Sudoku</div>
+      <h1>Support</h1>
+
+      <div class="nav">
+        <a href="/gravity-sudoku-site/">Home</a>
+        <a href="/gravity-sudoku-site/privacy-policy/">Privacy Policy</a>
+        <a href="/gravity-sudoku-site/terms/">Terms of Service</a>
+      </div>
+
+      <p>
+        Need help with Gravity Sudoku, multiplayer, ads, or purchases? Use the
+        links below.
+      </p>
+
+      <div class="panel">
+        <h2>Developer</h2>
+        <p>
+          GitHub profile: <a href="https://github.com/omfarak">@omfarak</a>
+        </p>
+        <p>
+          Support email: <a href="mailto:gravitysudoku.help@gmail.com">gravitysudoku.help@gmail.com</a>
+        </p>
+      </div>
+
+      <div class="panel">
+        <h2>Common help topics</h2>
+        <ul>
+          <li>Purchase restoration for "Remove Ads"</li>
+          <li>Ad display or consent issues</li>
+          <li>Multiplayer connection problems</li>
+          <li>Bug reports and crash details</li>
+        </ul>
+      </div>
+
+      <div class="panel">
+        <h2>Before contacting support</h2>
+        <ul>
+          <li>Include your device model and OS version</li>
+          <li>Include your app version and store platform</li>
+          <li>Describe the issue and how to reproduce it</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

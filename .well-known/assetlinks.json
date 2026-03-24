@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.gravitysudoku.gravity_sudoku",
+      "sha256_cert_fingerprints": [
+        "44:41:F1:D8:2B:9B:C8:BD:12:CD:BC:B1:A6:A6:22:EB:7B:9D:92:E7:5C:FE:3E:43:C1:82:BB:1F:0C:F3:6E:B2"
+      ]
+    }
+  }
+]
